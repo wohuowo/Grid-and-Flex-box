@@ -1,0 +1,111 @@
+ * {
+     font-size: 15px;
+ }
+
+ .grids {
+     display: grid;
+     grid-template-columns: auto auto auto;
+     gap: 10px;
+     background-color: black;
+     padding: 10px;
+     width: 450px;
+ }
+
+ .grid1 {
+     background-color: aqua;
+     height: 150px;
+     grid-column-start: 1;
+     grid-column-end: 3;
+ }
+
+ .grid2 {
+     background-color: red;
+ }
+
+ .grid3 {
+     background-color: green;
+     height: 150px;
+     grid-row-start: 2;
+     grid-row-end: 4;
+ }
+
+ .grid4 {
+     background-color: blue;
+     grid-column-start: 4;
+     grid-column-end: 2;
+ }
+
+ .grid5 {
+     background-color: orange;
+     grid-column-start: 4;
+     grid-column-end: 2;
+ }
+
+ .flex-container {
+     display: flex;
+     justify-content: center;
+     min-width: 375px;
+     max-width: 1444px;
+     margin: auto;
+
+ }
+
+ .card1 {
+     background-color: hsl(31, 77%, 52%);
+     border-radius: 10px 0 0 10px;
+ }
+
+ .card2 {
+     background-color: hsl(184, 100%, 22%);
+ }
+
+ .card3 {
+     background-color: hsl(179, 100%, 13%);
+     border-radius: 0 10px 10px 0;
+
+ }
+
+ .car-name {
+     font-family: "Big Shoulders Display", cursive;
+     font-weight: 700;
+     color: hsl(0, 0%, 95%);
+     padding: 0 2rem 2rem 2rem;
+     font-size: 35px;
+     text-transform: uppercase;
+ }
+
+ .title {
+     font-family: 'Lexend Deca', sans-serif;
+     font-weight: 400;
+     line-height: 1.6;
+     color: hsla(0, 0%, 100%, 0.75);
+     padding: 0 2rem 2rem 2rem;
+ }
+
+ .logo {
+     padding: 2rem;
+ }
+
+button {
+     margin: 2rem;
+     padding: 0.75rem 1.5rem;
+     border-radius: 18px;
+     font-family: 'Lexend Deca', sans-serif;
+     background-color: transparent;
+     color: hsl(0, 0%, 95%);
+     border: 1px solid hsl(0, 0%, 95%);
+     cursor: pointer;
+ }
+button:hover {
+    background-color: hsl(0, 0%, 95%);
+    
+} 
+.btn1:hover {
+    color: hsl(31, 77%, 52%);
+}
+.btn2:hover {
+    color: hsl(184, 100%, 22%);
+}
+.btn3:hover {
+    color: hsl(179, 100%, 13%)
+}
